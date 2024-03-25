@@ -1,0 +1,70 @@
+.admin-landing{
+    width: 100%;
+    height: 100vh;
+    background: url('../Landing/Landing-electric.png');
+   background-position: center;
+   background-size: 100%;
+   font-family: "Montserrat", sans-serif;
+
+}
+
+.admin-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding-top: 10%;
+   font-family: "Montserrat", sans-serif;
+
+   .logo-ad{
+    padding-bottom: 2rem;
+   }
+
+
+}
+
+.admin-nav{
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.2rem 18rem;
+
+
+    .dashboard{
+        padding-right: 8rem;
+    }
+}
+
+
+/* Admin dashboard  */
+
+.dashboard-adm {
+    text-align: center;
+}
+
+.welcome {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.dash-com {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.acc-box {
+    width: 350px;
+    height: 180px;
+    padding: 20px;
+    background-color: #108cc648;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+

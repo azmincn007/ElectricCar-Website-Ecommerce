@@ -1,0 +1,117 @@
+.landing{
+    width: 100%;
+    height: 100vh;
+    background: url('../Landing/Landing-electric.png');
+   background-position: center;
+   background-size: 100%;
+}
+
+/* NAVBAR */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 8rem;
+}
+
+.components{
+    font-size: 1rem;
+    display: flex;
+    align-items: self-end;
+    padding: 0rem 4rem;
+    font-family: "Montserrat", sans-serif;
+
+    .c-elements{
+        display: flex;
+        padding: 0rem 20rem;
+
+        .elements{
+            padding: 0rem 2.2rem;
+        }
+    }
+
+    .cart-acc{
+        display: flex;
+        
+        div{
+           display: flex;
+           align-items: center;
+
+           .icon{
+            padding-right: 1rem;
+            width: 20px;
+            height: 20px;
+           }
+        }
+
+        .cart{
+            padding: 0rem 2.5rem;
+        }
+    }
+}
+
+/* CONTENTS-LANDING */
+
+.contents-L{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 68vh;
+    padding-top: 10rem;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2C2C2C ;
+    color:whitesmoke ;
+    width: 5rem;
+    height: 1.3rem;
+    border-radius: 20px;
+}
+
+.name{
+    font-family: "Spectral", serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.releasedate{
+    font-family: "Spectral", serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons-div{
+    display: flex;
+
+    .pre-order{
+        padding-right: 3rem;
+    }
+    
+
+    .pre-order button{
+        font-family: "Spectral", serif;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 20px;
+        background-color: white;
+        outline: none;
+        border: none;
+    }
+
+    .veh-details button{
+        font-family: "Spectral", serif;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 20px;
+        background-color: transparent;
+        outline: black;
+        border: 1px solid black;
+    }
+}
+
+
